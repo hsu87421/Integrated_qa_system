@@ -1,0 +1,18 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Runtime output
+logs/
+*.log
+bert_results/
+bert_logs/
+
+# Secrets and local model assets
+.env
+rag_qa/models/
+rag_qa/core/bert_query_classifier/model.safetensors
+rag_qa/nlp_bert_document-segmentation_chinese-base/
